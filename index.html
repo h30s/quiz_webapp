@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz_WebApp By Himanshu Soni</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="background"></div>
-    <div class="quiz-container">
-        <h1 class="quiz-title">Interactive Quiz!</h1>
-        <div id="timer" class="timer">Time Left: 60s</div>
-        <div id="quiz">
-            <div id="question-container"></div>
-            <div id="navigation">
-                <button id="save-next-btn" class="btn">Save and Next</button>
-                <button id="finish-btn" class="btn hidden">Finish</button>
-            </div>
+    <div class="sideimage">
+        <img src="https://img.freepik.com/premium-vector/quiz-comic-pop-art-style-quiz-brainy-game-word-vector-illustration-design_180786-81.jpg?semt=ais_hybrid" alt=""/>
+      </div>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="quiz.html">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </form>
         </div>
-        <div id="result" class="hidden"></div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

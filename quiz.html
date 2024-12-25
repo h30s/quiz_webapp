@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz_WebApp By Himanshu Soni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <a href="index.html">
+        <button type="button" class="login-btn">Logout</button>
+      </a>
+      
+    <div class="quiz-container">
+        <h1 class="quiz-title">Interactive Quiz!</h1>
+        <div id="timer" class="timer">Time Left: 60s</div>
+        <div id="quiz">
+            <div id="question-container"></div>
+            <div id="navigation">
+                <button id="save-next-btn" class="btn">Save and Next</button>
+                <button id="finish-btn" class="btn hidden">Finish</button>
+            </div>
+        </div>
+        <div id="result" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
